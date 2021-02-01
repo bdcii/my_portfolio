@@ -1,10 +1,11 @@
 :root{
-    --dark: #33393f;
+    --dark: #15171a;
     --purp: #77117a;
     --mint: #2aefcb;
 }
 
 body{
+    background-color: #d9dcd6;
 
 }
 
@@ -51,9 +52,9 @@ h2{}
 
 .headimg {
     /**this will be used for header/spacer image between nav and main content of page**/
-    height: 800px;
+    height: 200px;
     width: 100%;
-    background-image: url("./Assets/images/splash.jpg");
+    background-image: url("../images/stained-glass.jpeg");
     background-size: cover;
     background-position: center;
 }
