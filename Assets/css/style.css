@@ -54,9 +54,29 @@ h2{}
     /**this will be used for header/spacer image between nav and main content of page**/
     height: 200px;
     width: 100%;
+    padding-bottom: 20px;
     background-image: url("../images/stained-glass.jpeg");
     background-size: cover;
     background-position: center;
 }
+.flex {
+    display: flex;
+    color:var(--purp);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 
+  .AboutMe {
+    padding:20px;
+    width: 20%;
+    align-items:flex-end;
+    Border-right-color: var(--purp);
+    
+  }
+  .AboutMeBody {
+      padding:20px;
+      width: 80%;
+      margin-left:25px;
+      justify-content:space-around;
+
+  }
 .footer{}
