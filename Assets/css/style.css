@@ -65,18 +65,53 @@ h2{}
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex:1;
+  }
+
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+  }
+
   .AboutMe {
     padding:20px;
-    width: 20%;
-    align-items:flex-end;
-    Border-right-color: var(--purp);
+    Border-right: 4px dotted var(--purp);
+    Flex: 1;
     
   }
   .AboutMeBody {
       padding:20px;
-      width: 80%;
-      margin-left:25px;
-      justify-content:space-around;
+    margin-left:25px;
+  }
+
+
+    .Work {
+        padding:20px;
+        Border-right: 4px dotted var(--purp);
+        Flex: 1;
 
   }
+
+    .WorkContainer {
+    padding:20px;
+   
+    margin-left:25px;
+   
+}
+
+}
 .footer{}
